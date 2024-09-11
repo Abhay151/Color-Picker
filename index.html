@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color-picker-container">
+        <div class="color-preview" id="colorPreview"></div>
+        
+        <input type="color" id="colorInput" value="#3498db">
+        
+        <div class="color-inputs">
+          <label for="hexValue">Hex:</label>
+          <input type="text" id="hexValue" value="#3498db" readonly>
+      
+          <label for="rgbaValue">RGBA:</label>
+          <input type="text" id="rgbaValue" value="rgba(52, 152, 219, 1)" readonly>
+      
+          <label for="hslaValue">HSLA:</label>
+          <input type="text" id="hslaValue" value="hsla(207, 70%, 53%, 1)" readonly>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>
